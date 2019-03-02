@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const title = 'My Minimal React Webpack Babel Setup';
+const title = 'Title changed';
 
 class App extends React.Component {
   render() {
@@ -15,3 +15,5 @@ ReactDOM.render(
   <App/>,
   document.getElementById('app')
 );
+
+module.hot.accept();
