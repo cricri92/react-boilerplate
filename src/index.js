@@ -1,15 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-const title = 'Title changed';
-
-class App extends React.Component {
-  render() {
-    return (
-      <h1>{title}</h1>
-    )
-  }
-}
+import App from "src/app";
 
 ReactDOM.render(
   <App/>,
